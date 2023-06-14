@@ -7,6 +7,7 @@
 
 <form action="?page=salvar_fornecedor" method="POST">
     <input type="hidden" name="acao_fornecedor" value="editar_fornecedor">
+    <input type="hidden" name="id" value="<?=$_GET['id']?>">
     <div class="mb-3">
         <label>Nome do Fornecedor</label>
         <input type="text" name="nome_fornecedor" value="<?php

@@ -2,7 +2,7 @@
 <link href="css.css" rel="stylesheet"></link>
 
 <form action="?page=salvar_fornecedor" method="POST">
-    <input type="hidden" name="acao_fornecedor" value="salvar_fornecedor">
+    <input type="hidden" name="acao_fornecedor" value="cadastrar_fornecedor">
     <div class="mb-3">
         <label>Nome do Fornecedor</label>
         <input type="text" name="nome_fornecedor" class="form-control">
