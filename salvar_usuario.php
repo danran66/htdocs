@@ -21,7 +21,7 @@ switch ($acao) {
 
         // Crie a consulta SQL para inserir os dados na tabela
         $sql = "INSERT INTO produtos (descricao_prod, estoq_inicial, estoq_atual, nome_fornecedor, preco_compra, preco_venda) VALUES ('$descricao_prod', '$estoq_inicial', '$estoq_atual', '$nome_fornecedor', '$preco_compra', '$preco_venda')";
-
+        
         // Execute a consulta SQL
         if ($conn->query($sql) === TRUE) {
             echo "Cadastro realizado com sucesso!";
